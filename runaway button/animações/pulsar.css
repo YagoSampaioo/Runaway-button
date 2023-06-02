@@ -1,0 +1,11 @@
+@keyframes pulsar {
+    0% {
+      transform: scale(1); /* Tamanho normal */
+    }
+    50% {
+      transform: scale(1.2); /* Tamanho aumentado */
+    }
+    100% {
+      transform: scale(1); /* Tamanho normal */
+    }
+  }

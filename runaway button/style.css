@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+#botao {
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgb(106, 0, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+#Sim {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgb(106, 0, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 20px;
+}
+
+#pergunta{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 20px;
+    background-color: rgb(106, 0, 255);
+    color: #fff;
+}
+
+#mensagem{
+    position: absolute;
+    align-items: center;
+    left: 38%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: white;
+    font-size: 24px;
+    display: none;
+    animation: pulsar 1s infinite;
+}
+
+#imagem {
+    display: none;
+    width: 20%;
+    animation: girar 2s linear infinite;
+    animation-fill-mode: forwards; /* Mantém o estado final da animação */
+    animation-iteration-count: 1; /* Executa a animação apenas uma vez */
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
